@@ -8,7 +8,9 @@ Test scenarios are written in Javascript using Mocha framework with POM design.
 # Following tools and softwares are used to build the project:
 
 Visual Studio Code IDE (download from:- https://code.visualstudio.com/download)
+
 Node.js (download from:- https://nodejs.org/en/download/)
+
 Install Cypress and few dependecies as below,
 cypress
 cypress-xpath
