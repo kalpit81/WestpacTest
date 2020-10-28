@@ -1,0 +1,28 @@
+{
+  "env": 
+  {
+    "KiwiSaverMenu_id": "#ubermenu-section-link-kiwisaver-ps",
+    "KiwiSaverCalBtn_id": "#ubermenu-item-cta-kiwisaver-calculators-ps",
+    "CurrentAgeInfoIconText": "This calculator has an age limit of 18 to 64 years old.",
+    "iFrameCalcPath": "#calculator-embed > iframe"    
+  },
+  
+  "chromeWebSecurity": false,
+  "baseUrl": "https://www.westpac.co.nz/",
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/mochawesome-report",
+      "quite": true,
+      "overwrite": true,
+      "html": true,
+      "json": true,
+      "timestamp": "ddmmyyyy_HHMMss"
+    }
+  },
+  "projectId": "6ot428"
+}
