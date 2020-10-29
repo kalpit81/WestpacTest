@@ -30,9 +30,11 @@ More installation information guide is provided on the https://www.toolsqa.com/c
 # 5. Test Execution commands for the the project as below,
    # To run via IDE terminal use below commands
          npm run CypressUIRun (To open the testcase in Cypress Test Runner window , check the package.json)
-         
-   # To run via IDE terminal with Cypress Dashboard intergration use below commands
-         npm run DashboardChrome (To open the testcase in Cypress Test Runner window , check the package.json)
+         npm run CypressHeadlessRun (To run the testcases within the terminal without opening the UI and also generates reports , videoes and screenshots)
+            
+   # To run via IDE terminal with Cypress Dashboard intergration use below commands (To view the Cypress dashboard requires signing and registering the orgination and include the key)
+         npm run DashboardChrome (To open the testcase in Cypress Test Runner window , check the package.json Open Chrome Browser headed)
+         npm run DashboardFirefoxHeadless (This is headless excution requires Cypress dashboard sigin , videos are generated during headless executions)
 
 # Test Results
   # Screenshots
